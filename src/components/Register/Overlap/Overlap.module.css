@@ -1,0 +1,31 @@
+.overlap {
+  position: absolute;
+  z-index: 1;
+  top: 10vh;
+  left: 60vw;
+  width: 25vw;
+}
+
+.overlap > p {
+  color: #7FADE9;
+  margin-top: 2rem;
+  font-size: 85%;
+  text-align: center;
+}
+
+.overlap > p > span {
+  font-weight: bold;
+}
+
+.overlapForm {
+  border-radius: 0 0 10px 10px;
+  background: #ffffff;
+  box-shadow: -7px 0px 12px -6px rgba(0,0,0,0.65);
+}
+
+.overlapForm > h1 {
+  text-align: center;
+  padding: 5%;
+  background: #365DA8;
+  font-size: 125%;
+}

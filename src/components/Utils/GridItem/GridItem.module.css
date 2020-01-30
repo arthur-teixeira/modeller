@@ -1,0 +1,10 @@
+.gridItem {
+  padding: 5% 0;
+  color: #DAE1EA;
+  width: 50%;
+  font-size: small;
+}
+
+.gridItem > h5 {
+  color: #7FADE9;
+}

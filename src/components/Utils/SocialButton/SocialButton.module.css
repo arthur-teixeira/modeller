@@ -1,0 +1,10 @@
+.social {
+  display: flex;
+  align-items: center;
+  color: #525252;
+  cursor: pointer;
+  padding: 5%;
+  border-radius: 50px;
+  border: 1px solid #d1d1d1;
+  margin: 0 10% 1rem 10%;
+}

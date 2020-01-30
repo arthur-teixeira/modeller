@@ -1,0 +1,12 @@
+.logo {
+  max-width: 20%;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: block;
+}
+
+.header {
+  background: #ffffff;
+  height: 25vh;
+  width: 100%;
+}

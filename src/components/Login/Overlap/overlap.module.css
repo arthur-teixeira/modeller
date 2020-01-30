@@ -1,0 +1,12 @@
+.overlap {
+  max-width: 20%;
+  margin: 0 auto;
+}
+
+.overlapForm {
+  background: #ffffff;
+}
+
+.overlapForm:nth-of-type(2) {
+  border-radius: 0 0 10px 10px;
+}
