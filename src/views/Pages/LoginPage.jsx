@@ -13,8 +13,8 @@ class LoginPage extends React.Component {
     render() {
         return (
             <>
+                {/* <Header /> */}
                 <Overlap />
-                <Header />
             </>
 
         )

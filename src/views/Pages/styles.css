@@ -5,3 +5,60 @@
     background-color: cadetblue;
   }
   
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  body {
+    background: #1E3560;
+  }
+  
+  .socialIcon {
+    width: 10%;
+    margin-right:10%;
+    margin-left: 5%;
+  }
+  
+  .btn {
+    background: #D45794;
+    margin: 5% auto;
+    width: 100%;
+    border-radius: 25px;
+    padding: 1rem;
+    color: #ffffff; 
+    cursor: pointer;
+  }
+  
+  .btn-sml {
+    display:block;
+    background: #D45794;
+    margin: 5% auto;
+    width: 75%;
+    border-radius: 25px;
+    padding: 1rem;
+    color: #ffffff; 
+    cursor: pointer;
+  }
+  
+  .access {
+    color: #7FADE9;
+    margin-top: 2rem;
+    font-size: 85%;
+    text-align: center;
+  }
+  
+  .access > a {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .danger {
+    font-weight: bold;
+    color: #D45794;
+  }

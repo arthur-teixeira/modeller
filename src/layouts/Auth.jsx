@@ -104,14 +104,14 @@ class Pages extends React.Component {
         return (
             <div>
                 <AuthNavbar brandText={this.getActiveRoute(routes)} {...rest} />
-                {/* <div className={classes.wrapper} ref="wrapper" style={{ height: 'calc(100% - 180px)' }}>
-                    <div
+                <div className={classes.wrapper} ref="wrapper" style={{ background: "#1E3560" }}>
+                    {/* <div
                         className={classes.fullPage}
                     //  style={{ backgroundImage: "url(" + this.getBgImage() + ")" }} 
                     > */}
-                <Switch>{this.getRoutes(routes)}</Switch>
-                {/* </div>
-                </div> */}
+                    <Switch>{this.getRoutes(routes)}</Switch>
+                </div>
+                {/* </div> */}
             </div>
         );
     }
