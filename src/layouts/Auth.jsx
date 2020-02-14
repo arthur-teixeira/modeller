@@ -9,7 +9,6 @@ import { Switch, Route } from "react-router-dom";
 import withStyles from "@material-ui/core/styles/withStyles";
 
 // core components
-import AuthNavbar from "components/Navbars/AuthNavbar.jsx";
 import Footer from "components/Footer/Footer.jsx";
 
 import routes from "routes.js";
@@ -103,7 +102,6 @@ class Pages extends React.Component {
 
         return (
             <div>
-                <AuthNavbar brandText={this.getActiveRoute(routes)} {...rest} />
                 <div className={classes.wrapper} ref="wrapper" style={{ background: "#1E3560" }}>
                     {/* <div
                         className={classes.fullPage}

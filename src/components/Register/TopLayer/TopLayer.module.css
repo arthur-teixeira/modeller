@@ -13,6 +13,7 @@
 .logo {
   max-width: 35%;
   display: block;
+  margin-bottom: 2rem;
 }
 .lead {
   color:gray;

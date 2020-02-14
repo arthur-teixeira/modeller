@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './TopLayer.module.css'
-import img from '../../../img/logo_02.png'
+import img from '../../../logo_02.png'
 
 
 const TopLayer = () => {
