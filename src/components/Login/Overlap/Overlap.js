@@ -2,6 +2,7 @@ import React from 'react'
 import { SocialBox, LoginForm } from '../'
 import { Heading } from '../../Utils'
 import styles from './overlap.module.css'
+import { Link } from 'react-router-dom'
 
 const Overlap = () => {
   return (
@@ -14,7 +15,7 @@ const Overlap = () => {
         <div className={styles.overlapForm}>
           <LoginForm />
         </div>
-        <p className="access">Não possui uma conta? <a href="/">Crie uma agora =)</a></p>
+        <p className="access">Não possui uma conta? <Link to="/auth/register-page">Crie uma agora =)</Link></p>
       </div>
     </>
   )

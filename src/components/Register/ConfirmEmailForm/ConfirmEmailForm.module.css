@@ -1,0 +1,39 @@
+.ConfirmEmailForm {
+  padding: 10%;
+  width: 100%;
+}
+
+.sml {
+  font-size: 60%;
+  color: #808080;
+  text-align: center;
+}
+
+.ConfirmEmailForm > input {
+  width: 100%;
+  background: #DAE1EA;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  padding: 15px;
+  color: #808080;
+}
+
+.ConfirmEmailForm > p{
+  color: #808080;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.ConfirmEmailForm > p > span {
+  font-weight: bold;
+  color: #808080;
+}
+
+.emailBtn {
+  color: #1E3560;
+  font-weight: bold;
+  font-size: 110%;
+  display: block;
+  background: none;
+  margin: 2rem auto;
+}

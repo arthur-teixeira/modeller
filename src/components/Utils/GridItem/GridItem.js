@@ -4,8 +4,11 @@ import styles from './GridItem.module.css'
 const GridItem = props => {
   return (
     <div className={styles.gridItem}>
-      <h5>{props.title}</h5>
-      {props.children}
+      <img src={props.icon} className={styles.icon} align="left" />
+      <div>
+        <h5>{props.title}</h5>
+        {props.children}
+      </div>
     </div>
   );
 }
