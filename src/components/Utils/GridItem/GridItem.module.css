@@ -14,5 +14,6 @@
 .icon {
   width: 70px;
   margin: 0.5rem;
+  margin-left: 0;
   float: left;
 }
