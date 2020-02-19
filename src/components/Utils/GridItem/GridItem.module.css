@@ -1,15 +1,18 @@
 .gridItem {
   padding: 5% 0;
-  color: #DAE1EA;
-  width: 50%;
+  width: 75%;
+}
+
+.gridItem > h5 {
+  color: #7fade9;
+}
+
+.gridItem > p, .gridItem> h5 {
   font-size: small;
 }
 
-.gridItem  h5 {
-  color: #7FADE9;
-}
-
 .icon {
-  width: 30%;
+  width: 70px;
   margin: 0.5rem;
+  float: left;
 }
