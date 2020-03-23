@@ -1,0 +1,189 @@
+* {
+  margin:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color:gray;
+  text-decoration: none;
+}
+
+body, html{
+  height: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  background: gray;
+  position: fixed;
+  top:0;
+  right:0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left{
+  display: flex;
+  padding-left: 10%;
+}
+
+.navbar-right {
+  display:flex;
+  padding-right: 10rem;
+}
+
+.search input[type=text] {
+  padding: 6px;
+  font-size: 17px;
+  width: 25rem;
+  border-radius: 5px;
+  border:none;
+}
+
+.search i {
+  border: none;
+  cursor: pointer;
+}
+
+.search{
+  margin: 0 2rem;
+  background: white;
+}
+
+.invite{
+  background: white;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.notifications {
+  cursor: pointer;
+  background: white;
+  padding: 0.5rem;
+}
+
+.invite, .notifications, .search i {
+  margin: 0 0.5rem;
+}
+
+.invite, .search, .notifications{
+  border-radius: 5px;
+}
+
+.bars{
+  color: white;
+}
+
+.avatar{
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+  width: 50%;
+}
+
+.side-menu {
+  width: 15vw;
+  margin: 25%;
+}
+
+.lead {
+  text-align: left;
+  font-size: 1.5vw;
+}
+
+.user-info {
+  padding: 2rem 0;
+}
+
+.btn-outline{
+  background: white;
+  border: 2px solid gray;
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn-outline:hover, .btn-outline.active {
+  transition: 0.3s;
+  background: gray;
+  color: white;
+}
+
+a.small {
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100%;
+}
+
+.card-section {
+  padding: 10rem;
+  background: #e9ffff;
+}
+
+.card-grid {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+}
+
+.new-card {
+  padding: 3rem 0;
+}
+
+.main-icon {
+  margin: 1rem;
+}
+
+.card {
+  border: 2px solid lightgray;
+  position: relative;
+  height: 200px;
+  background: #fff;
+}
+
+.top-right {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 1rem;
+  right:1rem;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.project-name {
+  color: #1E3560;
+}
+.card-count {
+  color: #365Da8;
+}
+
+.card-icon {
+  position: absolute;
+  top:10%;
+  padding: 2rem 0;
+  left: 35%;
+  background: gray;
+  color:white;
+  border-radius: 10px;
+  width: 30%;
+  vertical-align: middle;
+}
